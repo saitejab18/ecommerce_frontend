@@ -1,2 +1,13 @@
-hello saiteja hello world
-virat kohli
+HTML: Hyper Text Markup Language
+
+It is used to create static web pages 
+
+It is not a programming language but a markup Language and is a tag based Language/Content is represented using tags
+
+Tag: A tag is a keyword that is enclosed in angular brackets.
+
+ex: <html>, <head>, <body> 
+
+How does a web browser reads html pageand didplays it on UI?
+
+The web browser takes the help of DOM(Documentobject Model) and converts the HTML Document into a tree 
