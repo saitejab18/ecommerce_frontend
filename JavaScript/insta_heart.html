@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <i onclick="f1()" id="colour" class="fa fa-heart" style="font-size:48px;color:red;margin-left: 700px;margin-top: 350px;"></i>
+        <p style="display: inline; font-family:cursive;">Like/Dislike</p>
+    <script>
+        function f1(){
+            var element = document.getElementById("colour");
+            var elementStyle = element.style;
+            var ck = elementStyle.getPropertyValue("color")
+            console.log(ck);
+            if(ck=="whitesmoke")
+            {
+                elementStyle.setProperty("color","red");
+            }
+            else
+            {
+               elementStyle.setProperty("color","whitesmoke");
+    
+            }
+
+            
+            }
+        
+    </script>
+    </body>
+</html>

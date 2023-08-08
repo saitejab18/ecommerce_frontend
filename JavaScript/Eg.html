@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id = "UserName" placeholder="UserName ">
+        <input type="text" id = "PassWord" placeholder="PassWord here">
+        <button onclick="f1()">logIn here</button>
+        <script>
+        function f1(){
+            // username = saiteja PassWord = sai123
+            var a = document.getElementById("UserName").value;
+            var b = document.getElementById("PassWord").value;
+
+            if(a=="saiteja" && b=="sai123"){
+                alert("Success");
+            }
+            else{
+                alert("failed");
+            }
+        }
+        </script>
+
+    </body>
+</html>
