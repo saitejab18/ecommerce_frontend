@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var user = {
+                name:"teja",
+                address:"Hyd",
+                getDetails:function(a,b){
+                    return this.name + "\t" + this.address + "\t" + a + "\t" + b;
+                }
+            }
+            var user2={
+                name:"Sai",
+                address:"knr"
+            }
+            arr = [10,20];
+            console.log(user.getDetails.call(user2,10,20));
+            console.log(user.getDetails.apply(user2,arr));
+
+            
+            console.log(user.getDetails());
+        </script>
+    </body>
+</html>

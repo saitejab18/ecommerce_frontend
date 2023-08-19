@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <body>
+            <script>
+                function f1()
+                {
+                    return function(a,b)
+                    {
+                        console.log("Returned function");
+                        console.log(a,b);
+                    }
+                }
+                f1()(10,20);
+            </script>
+        </body>
+    </head>
+</html>

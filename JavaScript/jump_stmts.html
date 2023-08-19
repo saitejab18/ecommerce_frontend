@@ -1,0 +1,47 @@
+/*Jump Statements:
+
+break, continue and return 
+
+break: it is used to terminate a block . 
+
+continue:  To skip / terminate the current iteration, we can use 
+continue.  */
+
+
+<html>
+<head>
+    
+</head>
+<body>
+
+    <script>
+        
+        for(var i = 0; i < 10;i++){
+            if(i==2){
+                continue;
+
+            }
+            console.log(i);
+        }
+
+        for(var j = 0; j < 10; j++){
+            if(j==4)
+            {
+                break;
+            }
+            console.log(j);
+        }
+        
+        function f1(){
+            var x = 0;
+            for(var k = 0; k<10; k++){
+              x = x + 1;
+            }
+            console.log(x);
+        }
+        f1();
+        
+    </script>
+    
+</body>
+</html>

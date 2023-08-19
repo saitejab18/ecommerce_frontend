@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <body>
+            <script>
+                function f1(X){
+                   X();
+                }
+                function f2(Y){
+                    Y();
+                }
+                function f3(Z){
+                Z();
+                }
+var callback = function (){
+    console.log("Anonymous function");
+}
+
+            f1(callback);
+            f2(callback);
+            f3(callback);
+            </script>
+        </body>
+    </head>
+</html>

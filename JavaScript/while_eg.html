@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <ul id = "list" ></ul>
+        <script>
+            var users = ["Saiteja","Rahul","Pranay","Sai tarun","Akshay"];
+            var index = 0;
+            var userinfo = document.getElementById("list");
+            var content = "";
+            while(index<users.length){
+                content = content +" <li> " + users[index] + "</li>";
+                index++;
+            }
+
+            console.log(content);
+            userinfo.innerHTML = content;
+
+        </script>
+
+    </body>
+</html>
